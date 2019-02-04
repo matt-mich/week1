@@ -1,0 +1,67 @@
+// REQUEST HEADERS //
+
+// Accept any content type.
+Accept:*/*
+
+// Specifies the encoding that will be accepted. In this case,
+// either gzip or deflate.
+accept-encoding: gzip, deflate
+
+// Don't cache anything
+cache-control: no-cache
+
+// Hostname of server being queried
+Host: www.googleapis.com
+
+// A random token postman uses to differentiate between requests.
+Postman-Token: 11c8780b-134d-4f69-800e-13e012b6210e
+
+// The client user-agent used to send the request
+User-Agent: PostmanRuntime/7.6.0
+
+// RESPONSE HEADERS //
+
+// Refers to alternate services through which to reach the server.
+// In this case, for instance, it states that HTTPS could be used
+// instead of HTTP.
+Alt-Svc: quic=":443"; ma=2592000; v="44,43,39"
+
+// Specifies that the content is not to be stored in a shared cache,
+// that it is not to be reused, meaning it must be revalidated whenever
+// queried.
+Cache-Control: private, max-age=0, must-revalidate, no-transform
+
+// Specifies that te content is encoded to the gzip UNIX standard.
+Content-Encoding: gzip
+
+// Specifies that the return content is in JSON format, using the UTF-8 character set.
+Content-Type: application/json; charset=UTF-8
+
+// The current date and time when the response was generated
+Date: Mon, 04 Feb 2019 03:15:20 GMT
+
+// A unique identifier for the response. Usually used to ensure cache is up to date.
+ETag: "IUREzboS_XZycecz4xfru1ipYfo/ZORpmsY_CE4SzLWgO7JQSl3QVgU"
+
+// Response expiration date. Same as 'Date' since it is not persistent data (Could be updated at any time).
+Expires: Mon, 04 Feb 2019 03:15:20 GMT
+
+// The server used in the response is GSE (Google Servlet Engine)
+Server: GSE
+
+// Refers to the response encoding pattern. 'Chunked' indicates that if the
+// data is too large for a single TCP packet, it will be sent in multiple chunks.
+Transfer-Encoding: chunked
+
+// Indicates that a cached response should not be used.
+Vary: X-Origin
+
+// Disables the browser from content sniffing.
+X-Content-Type-Options: nosniff
+
+// Disallows the content to be shown in a frame not originiating from
+// the host server/site.
+X-Frame-Options: SAMEORIGIN
+
+// Cross-site scripting protection mode setting
+X-XSS-Protection: 1; mode=block
